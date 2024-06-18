@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+
+html {
+    background: linear-gradient(to right, #ffffff, rgb(199, 199, 173));
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+nav {
+    font-family: 'NunitoSans', sans-serif;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+hr {
+    height: 0.5px;
+    background-color: rgb(0, 0, 0);
+    width: 100%;
+    margin-top: 0px;
+}
+
+h1 {
+    color: rgb(0, 0, 0);
+    margin-left: 40px;
+    font-weight: 300;
+    font-size: 20px;
+    animation-name: rotate;
+    animation-duration: 4s; 
+    animation-iteration-count: infinite; 
+    animation-timing-function: linear; 
+    transform-origin: center;
+}
+
+@keyframes rotate {
+    from {
+        transform: rotateY(0deg); 
+    }
+    to {
+        transform: rotateY(360deg); 
+    }
+}
+
+nav div {
+    width: 24%;
+    display: flex;
+    margin-left: 800px;
+    font-weight: 300;
+}
+
+#navegador a {
+    color: rgb(0, 0, 0);
+    margin-left: 20px;
+    text-decoration: none;
+}
+
+#navegador a:hover {
+    text-decoration: underline;
+}
+
+.tituloo {
+    font-family: 'Indie Flower', sans-serif; 
+    text-align: center;
+    font-size: 80px;
+    margin-top: 150px;
+    margin-bottom: 0px;
+}
+
+.quiensoy {
+    font-family: 'NunitoSans', sans-serif;
+    font-weight: 300;
+    text-align: center;
+    font-size: 40px;
+    margin-left: 140px;
+    margin-right: 140px;
+    margin-top: 0px;
+}
+
+.botonn {
+    font-family: 'NunitoSans', sans-serif;
+    font-weight: 300;
+    display: block;
+    border: 0.5px solid #000000;
+    border-radius: 50px;
+    padding: 10px;
+    width: 150px;
+    margin-left: 650px;
+    text-align: center;
+    transition: all 0.3s ease;
+    margin-bottom: 300px;
+}
+
+.botonn a {
+    color: #000000;
+}
+
+.botonn:hover {
+    color: #000000;
+    border: 2px solid #000000;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+section, video {
+    width: 100%;
+}
+
+section div img {
+    margin-top: 20px;
+    width: 100%;
+    height: auto;
+    transition-property: box-shadow, transform;
+    transition-duration: 0.3s;
+    transition-timing-function: ease-in-out;
+}
+
+section div img:hover {
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5); 
+}
+
+h4 {
+    font-family: 'NunitoSans', sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    color: #000000;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 25px;
+    text-decoration: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+section div {
+    width: 44%;
+    margin-bottom: 20px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+video { 
+    width: 80%;
+    display: block;
+    margin: 10px auto;
+    margin-top: 50px;
+    margin-bottom: 50px
+}
+
+footer {
+    background-image: url('fotos/raport.png'); 
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    height: 100px; 
+    color:black; 
+    padding-top: 3px;
+    padding-bottom: 30px;
+}
+
+h5 {
+    font-family: 'NunitoSans', sans-serif;
+    text-align: center;
+    font-weight: 500;
+    font-size: 30px;
+}
